@@ -1,0 +1,27 @@
+#rig_back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1920px;
+    height: 950px; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#video{
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 570px;
+}
+
+#nom{
+    position: absolute;
+    z-index: 2;
+    background-image: url(img_vid/ri.png);
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 50px;  
+}

@@ -1,0 +1,11 @@
+
+#info_jo{
+    position: absolute;
+    z-index: 0;
+    background-image: url(img_vid/joo_html.jpg);
+    width: 1920px;
+    height: 1080px; 
+    margin-top: 0px;
+    margin-left: 0px;
+    background-size: 100%;
+}

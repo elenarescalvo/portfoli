@@ -1,0 +1,251 @@
+
+#back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1900px;
+    height: 2400px; 
+    margin-top: 0px;
+    margin-left: -8px;
+}
+#menu{
+    position: fixed;
+    z-index: 10;
+    background-color: mediumpurple;
+    width: 1900px;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+#jo{
+    position: fixed;
+    z-index: 15;
+    background-image: url(img_vid/joo.png);
+    width: 120px;
+    height: 40px;
+    background-size: 100%;
+    margin-left: 1360px;
+    margin-top: 0px;  
+}
+
+#disseny_dibuix{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/character.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 80px;
+    margin-left: 410px; 
+}
+
+    #explicacio1 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_dra.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #disseny_dibuix:hover #explicacio1{
+        opacity: 1;
+    }
+
+
+#clor_textu{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/textu.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 80px;
+    margin-left:980px;
+    
+}
+
+    #explicacio2 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_textu.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #clor_textu:hover #explicacio2{
+        opacity: 1;
+    }
+
+#anim_imatge_fixa{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/animacio.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 630px;
+    margin-left: 410px;  
+}
+
+    #explicacio5 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_anim.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #anim_imatge_fixa:hover #explicacio5{
+        opacity: 1;
+    }
+
+#modelatge{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/modelatge.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 630px;
+    margin-left: 980px; 
+}
+    
+    #explicacio4 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_mo.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #modelatge:hover #explicacio4{
+        opacity: 1;
+    }
+
+#rigging{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/rig.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 1180px;
+    margin-left: 410px;    
+}
+
+    #explicacio9 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_rig.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #rigging:hover #explicacio9{
+        opacity: 1;
+    }
+
+
+#apli_multidis{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/multi.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 1180px;
+    margin-left: 980px;
+}
+
+    #explicacio14 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_multi.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #apli_multidis:hover #explicacio14{
+        opacity: 1;
+    }
+
+#illuminacio{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/nau_render_bo.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 115%;
+    margin-top: 1730px;
+    margin-left: 410px;
+}
+
+    #explicacio13 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_illu.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #illuminacio:hover #explicacio13{
+        opacity: 1;
+    }
+
+#elements_interact{
+    position:absolute;
+    z-index: 2;
+    background-image: url(img_vid/inter.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    margin-top: 1730px;
+    margin-left: 980px;
+}
+
+    #explicacio16 {
+        position: absolute;
+        z-index: 10;
+        background-image: url(img_vid/explicacio_int.png);
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: 0; 
+    }
+
+    #elements_interact:hover #explicacio16{
+        opacity: 1;
+    }
+
+

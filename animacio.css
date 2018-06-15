@@ -1,0 +1,34 @@
+#animacio_back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1920px;
+    height: 1527px; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#video{
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 570px;
+}
+
+#video_2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 1000px;
+    margin-left: 570px;
+}
+
+#nom{
+    position: absolute;
+    z-index: 2;
+    background-image: url(img_vid/anim.png);
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 50px;  
+}

@@ -1,0 +1,31 @@
+#color_textu_back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1920px;
+    height: 4822px; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#color_textu_html{
+    position: absolute;
+    z-index: 1;
+    background-image: url(img_vid/color_textu.jpg);
+    width: 1440px;
+    height: 4712px;
+    background-size: 100%;
+    margin-left: 10%;
+    margin-top: 80px;  
+}
+
+#nom{
+    position: absolute;
+    z-index: 2;
+    background-image: url(img_vid/te.png);
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 50px;  
+}

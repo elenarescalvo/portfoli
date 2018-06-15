@@ -1,0 +1,30 @@
+#dibuix_back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1920px;
+    height: 2827px; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#dibuix_html{
+    position: absolute;
+    z-index: 1;
+    background-image: url(img_vid/dibuix_html.jpg);
+    width: 1440px;
+    height: 2819px;
+    background-size: 100%;
+    margin-left: 10%;
+    margin-top: 0px;  
+}
+
+#nom{
+    position: absolute;
+    z-index: 2;
+    background-image: url(img_vid/dra.png);
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 50px;  
+}

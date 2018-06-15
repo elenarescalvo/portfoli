@@ -1,0 +1,29 @@
+#illuminacio_back{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 1920px;
+    height: 2605px; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#illuminacio_html{
+    position: absolute;
+    z-index: 1;
+    background-image: url(img_vid/illuminacio_html.jpg);
+    width: 1440px;
+    height: 2597px;
+    background-size: 100%;
+    margin-left: 13%;
+    margin-top: 0px;  
+}
+#nom{
+    position: absolute;
+    z-index: 2;
+    background-image: url(img_vid/illu.png);
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 50px;  
+}
